@@ -19,7 +19,7 @@
 	<li> &ltcache_entries&gt is the number of entries available in the cache. </li>
 </ul>
 
-<p> To test the server, use "wget", the non-interactive network downloader. After running the server, open a new terminal to test the server. You can try to download a file using the following command: <b> "wget http://127.0.0.1:9000/image/jpg/29.jpg" </b> (Please note that 127.0.0.1 means localhost). </p> 
+<p> To test the server, use "wget", the non-interactive network downloader. After running the server, open a new terminal to test the server. You can try to download a file using the following command: <br><b> "wget http://127.0.0.1:9000/image/jpg/29.jpg" </b> <br>(Please note that 127.0.0.1 means localhost). </p> 
 
 ## How It Works
 <p> The server.c program works by checking to make sure that all arguments entered match the required criteria, then if correct, changes the current working directory to the specified path. Then the specified number of worker and dispatch threads are created to handle the requests. The dispatch threads connect to the client and take in the clients request, and adds it into the queue that was implemented. The worker threads then take the requests from the queue, check to see if the request being handled is in the cache, if not it reads the file requested from disk and the request is added to the cache. </p>
