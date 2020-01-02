@@ -1,5 +1,5 @@
 # Multi Thread Web Server
-<p> This is Raymond Holidjaja's CSCI4061 (Operating System) Fall 2018 Project 3 at University of Minnesota - Twin Cities. </p> 
+<p> This is my CSCI4061 (Operating System) Fall 2018 Project 3 at University of Minnesota - Twin Cities. </p> 
 
 <p> The purpose of this lab is to construct a multi-threaded web server using POSIX threads (pthreads) in C language to learn about thread programming and synchronization methods. This web server should be able to handle file transfer between the server and client side using HTTP web protocol. It is able to transfer any file type (HTML, GIF, JPEG, TXT, etc). </p>
 
