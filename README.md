@@ -8,7 +8,7 @@
 ## Quick Overview 
 <p>The server will be composed of two types of threads: <b>dispatcher threads</b> and <b>worker threads</b>. The purpose of the dispatcher threads is to repeteadly accept an incoming connection, read the client request from the connection, and place the request in a queue. Assume there will only be one request per incoming connection. The purpose of the worker threads is to monitor the request queue, retrieve requests and serve the request;s result back to the client. The request queue is a bounded buffer and will need to be properly synchronized using conditional variables. </p>
 
-### How To Compile 
+### How to Compile 
 <p>Simply type "make" in the directory containing the makefile and code. The server should be run as:<br><b>"./web_server &ltport&gt &ltpath_to_testing&gt &ltnum_dispatch&gt &ltnum_workers&gt &ltdynamic_flag&gt &ltqueue_len&gt &ltcache_entries&gt"</b>.</p>
 
 <p> The server will be configure in the following ways: 
