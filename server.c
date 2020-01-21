@@ -1,5 +1,4 @@
-/* CSCI4061 Fall 2018 Project 3
-*/
+// CSCI4061 Fall 2018 Project 3
 
 #include <string.h>
 #include <stdlib.h>
