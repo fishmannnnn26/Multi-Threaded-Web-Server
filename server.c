@@ -1,6 +1,5 @@
 /* CSCI4061 Fall 2018 Project 3
-Ganzorig Battur, Raymond Holidjaja, Chad Baron
-battu010, holid019, baron071 */
+*/
 
 #include <string.h>
 #include <stdlib.h>
